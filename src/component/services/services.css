@@ -1,0 +1,123 @@
+/*****************
+container services
+******************/
+.container-services {
+  width: 100%;
+  height: 65vh;
+  /* background-color: blueviolet; */
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 700px) {
+  .container-services {
+    flex-direction: column;
+    justify-content: space-around;
+    height: 93vh;
+  }
+}
+
+/*===============
+left dide services
+================*/
+.left-side-services {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2rem;
+  /* background-color: red; */
+  width: fit-content;
+}
+.left-animation {
+  width: 100%;
+  padding-bottom: 0.5rem;
+  /* background-color: #d0ff00; */
+}
+.left-side-services .item2 {
+  color: orange;
+}
+.container-items-services {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.port-skill-services {
+  width: 100%;
+}
+/*=================
+right side services
+==================*/
+.right-side-services {
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  /* background-color: aquamarine; */
+  width: 40rem;
+}
+@media (max-width: 700px) {
+  .right-side-services {
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+  }
+}
+.card-front,
+.card-back {
+  margin-bottom: 0;
+}
+
+.card-frontend,
+.card-backend {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  color: orangered;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.2);
+  padding: 0.2em 0.4em;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  box-shadow: rgba(229, 255, 0, 0.767) 0px 25px 20px -20px;
+  border-image: linear-gradient(to right, #ff0303, #d0ff00, orange) 1;
+  cursor: pointer;
+}
+.images-front,
+.images-back {
+  margin-top: 0;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.react,
+.html,
+.redux,
+.css,
+.javascript,
+.node,
+.express,
+.mongoose,
+.motion,
+.thunder {
+  width: 3rem;
+  height: 3rem;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  border-radius: 2px;
+}
+
+.btn {
+  z-index: -1;
+}
+
+/*=================
+responcive service
+=================*/

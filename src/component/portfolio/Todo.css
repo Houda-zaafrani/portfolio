@@ -1,0 +1,76 @@
+/*****************
+container modal todo
+*******************/
+.todo-modal {
+  font-size: 1rem;
+  letter-spacing: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  color: black ;
+}
+/*******
+title
+********/
+.modal-title h3 {
+  color: orangered;
+  font-weight: 600;
+}
+
+.descriptionTodo {
+  font-size: 1.2rem;
+  color: black;
+  font-weight: 500;
+}
+
+/***************
+container image
+***************/
+.container-image-modal {
+  color: black;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  border-bottom: 2px solid orangered;
+}
+.container-image-modal h5{
+  text-align: center;
+  font-weight: 600;
+}
+/*************
+images
+*************/
+.imageTodo {
+  height: 11rem;
+}
+.technologieTodo span {
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 0.3rem 0 0.3rem 0;
+  color: rgb(255, 102, 0);
+}
+.technologieTodo p {
+  margin-bottom: 0;
+}
+.modal-content .modal-body {
+  padding-bottom: 0;
+}
+
+/***************
+link github
+****************/
+.modal-footer {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  padding-left: 1rem;
+}
+.linkGithubModal {
+  width: 100%;
+   margin-top: 0 !important;
+}
+
+.linkGithubModal span{
+  color: rgb(255, 102, 0);
+  font-weight: 600;
+  font-size: 1.2rem;
+}
