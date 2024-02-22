@@ -62,7 +62,7 @@ const MoviesModal = ({ movieApp, onClose }) => {
       </Modal.Body>
       <Modal.Footer className="modal-footer">
         <p className="linkGithubModal">
-          <span>Link github :</span>
+          <span>Link github : </span>
           <a href={movieApp.linkBitbucket}>{movieApp.linkBitbucket} </a>
         </p>
       </Modal.Footer>
