@@ -21,9 +21,7 @@ const Footer = ({ data }) => {
         <a href="https://github.com/Houda-zaafrani">
           <FontAwesomeIcon icon={faSquareGithub} className="icon-footer" />{" "}
         </a>
-        <a href="https://bitbucket.org/houda-zaafrani/workspace/overview/">
-          <FontAwesomeIcon icon={faBitbucket} className="icon-footer" />
-        </a>
+        
       </div>
     </div>
   );
