@@ -15,7 +15,7 @@ const Footer = ({ data }) => {
         {data.email}
       </span>
       <div className="f-icons">
-        <a href="https://www.linkedin.com/in/houda-zaafrani/details">
+        <a href="https://www.linkedin.com/in/houda-zaafrani-4aa6642b5/">
           <FontAwesomeIcon icon={faLinkedin} className="icon-footer" />
         </a>
         <a href="https://github.com/Houda-zaafrani">
